@@ -1,16 +1,76 @@
-# React + Vite
+# WeatherNow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WeatherNow is a responsive weather application built with React and Vite that provides real-time weather information for cities around the world.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Search weather by city name
+* Display current temperature
+* Shows weather conditions (Clear, Cloudy, Rainy, etc.)
+* Displays humidity and wind speed
+* Responsive design for mobile and desktop devices
+* Fast and modern user interface
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript
+* CSS
+* OpenWeatherMap API
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+
+```bash
+git clone https://github.com/Niranjan2350/weathernow.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd weathernow
+```
+
+3. Install dependencies
+
+```bash
+pnpm install
+```
+
+4. Start the development server
+
+```bash
+pnpm run dev
+```
+
+## Usage
+
+1. Enter a city name in the search box.
+2. Click the search button.
+3. View the current weather details for the selected city.
+
+## Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+```
+
+You can get your API key from:
+https://openweathermap.org/api
+
+## Future Enhancements
+
+* 7-day weather forecast
+* Geolocation-based weather detection
+* Dark mode support
+* Weather alerts and notifications
+
+## Author
+
+Niranjan Yalashetti
+B.E. Information Science
+Gogte Institute of Technology, Belagavi
